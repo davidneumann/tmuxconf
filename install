@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ln -s $(pwd)/tmux.conf ~/.tmux.conf
+
+# Install plugins
+~/.tmux/plugins/tpm/bin/install_plugins
